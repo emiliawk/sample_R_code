@@ -1,0 +1,144 @@
+### Launching SNP extraction script at:
+[1] "2014-11-18 21:26:41 PST"
+
+### Launching extraction on the following plink files:
+ ../../Source_Data/chr.1.All
+../../Source_Data/chr.2.All
+../../Source_Data/chr.3.All
+../../Source_Data/chr.4.All
+../../Source_Data/chr.5.All
+../../Source_Data/chr.6.All
+../../Source_Data/chr.7.All
+../../Source_Data/chr.8.All
+../../Source_Data/chr.9.All
+../../Source_Data/chr.10.All
+../../Source_Data/chr.11.All
+../../Source_Data/chr.12.All
+../../Source_Data/chr.13.All
+../../Source_Data/chr.14.All
+../../Source_Data/chr.15.All
+../../Source_Data/chr.16.All
+../../Source_Data/chr.17.All
+../../Source_Data/chr.18.All
+../../Source_Data/chr.19.All
+../../Source_Data/chr.20.All
+../../Source_Data/chr.21.All
+../../Source_Data/chr.22.All 
+
+### Launching extraction with the following SNP file:
+ SNPs.txt 
+
+
+
+### Treating file : ../../Source_Data/chr.1.All 
+# Number of subjects:  30248 
+# Memory used: 14.6 MB
+
+
+### Treating file : ../../Source_Data/chr.2.All 
+# Number of subjects:  30248 
+# Memory used: 16.7 MB
+
+
+### Treating file : ../../Source_Data/chr.3.All 
+# Number of subjects:  30248 
+# Memory used: 19.1 MB
+
+
+### Treating file : ../../Source_Data/chr.4.All 
+# Number of subjects:  30248 
+# Memory used: 19.7 MB
+
+
+### Treating file : ../../Source_Data/chr.5.All 
+# Number of subjects:  30248 
+# Memory used: 20.7 MB
+
+
+### Treating file : ../../Source_Data/chr.6.All 
+# Number of subjects:  30248 
+# Memory used: 21.9 MB
+
+
+### Treating file : ../../Source_Data/chr.7.All 
+# Number of subjects:  30248 
+# Memory used: 22.9 MB
+
+
+### Treating file : ../../Source_Data/chr.8.All 
+# Number of subjects:  30248 
+# Memory used: 24.1 MB
+
+
+### Treating file : ../../Source_Data/chr.9.All 
+# Number of subjects:  30248 
+# Memory used: 24.2 MB
+
+
+### Treating file : ../../Source_Data/chr.10.All 
+# Number of subjects:  30248 
+# Memory used: 24.8 MB
+
+
+### Treating file : ../../Source_Data/chr.11.All 
+# Number of subjects:  30248 
+# Memory used: 26 MB
+
+
+### Treating file : ../../Source_Data/chr.12.All 
+# Number of subjects:  30248 
+# Memory used: 27.2 MB
+
+
+### Treating file : ../../Source_Data/chr.13.All 
+# Number of subjects:  30248 
+# Memory used: 27.4 MB
+
+
+### Treating file : ../../Source_Data/chr.14.All 
+# Number of subjects:  30248 
+# Memory used: 28.1 MB
+
+
+### Treating file : ../../Source_Data/chr.15.All 
+# Number of subjects:  30248 
+# Memory used: 28.9 MB
+
+
+### Treating file : ../../Source_Data/chr.16.All 
+# Number of subjects:  30248 
+# Memory used: 30.8 MB
+
+
+### Treating file : ../../Source_Data/chr.17.All 
+# Number of subjects:  30248 
+# Memory used: 32.5 MB
+
+
+### Treating file : ../../Source_Data/chr.18.All 
+# Number of subjects:  30248 
+# Memory used: 32.8 MB
+
+
+### Treating file : ../../Source_Data/chr.19.All 
+# Number of subjects:  30248 
+# Memory used: 33.8 MB
+
+
+### Treating file : ../../Source_Data/chr.20.All 
+# Number of subjects:  30248 
+# Memory used: 34.3 MB
+
+
+### Treating file : ../../Source_Data/chr.21.All 
+WARNING: Call to plink resulted into an error for ## file ../../Source_Data/chr.21.All ##. There might be a problem, or just no corresponding SNPs in the specified file.
+
+
+### Treating file : ../../Source_Data/chr.22.All 
+# Number of subjects:  30248 
+# Memory used: 35 MB
+
+### Writing csv to disk...
+
+### Done with SNP extraction script at:
+[1] "2014-11-18 21:52:31 PST"
