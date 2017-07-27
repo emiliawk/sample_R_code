@@ -1,6 +1,3 @@
-setwd('R_Analysis/')
-
-
 # File path & names -------------------------------------------------------
 
 WTCCC2SNPsFolder <- "data/WTCCC2 data/SNP_lists"
