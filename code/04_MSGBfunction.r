@@ -33,7 +33,7 @@ MSGB <- function(genotype) {
 
 # test --------------------------------------------------------------------
 
-if (test <- FALSE) {
+if (test != FALSE) {
   coeff_old <- coeff
   coeff <- data.frame(row.names = c("rs1234_A", "rs2345_G"),
                       OR = c(0.8, 1.2),
