@@ -1,0 +1,58 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet">
+ <defs>
+  <path id="ckfW4dmch" d="m341.76,259.93l124.65,-11.04l-100.98,-58.38l-23.67,69.42z"/>
+  <path id="f2ScX1Dgz" d="m341.76,302.53l-149.88,83.62l-140.42,-332.9l290.3,249.28z"/>
+  <path id="fbRUsXkep" d="m360.7,294.64l-340.8,200.38l345.53,-304.51l-4.73,104.13z"/>
+  <path id="aWKG6FXIZ" d="m360.36,294.76l-153.04,88.36l-94.66,-377.32l247.7,288.96z"/>
+  <linearGradient y2="0.568136" x2="0.08231" y1="0.818208" x1="0.980987" id="gradientc7CUneCg3b">
+   <stop stop-color=" #f10000" offset="0%"/>
+   <stop stop-color=" #e83030" offset="100%"/>
+  </linearGradient>
+  <linearGradient y2="0.888375" x2="0.692525" y1="-0.027906" x1="-0.008026" id="gradientbZq0MeNRD">
+   <stop stop-color=" #f40505" offset="0%"/>
+   <stop stop-color=" #e22c2c" offset="100%"/>
+  </linearGradient>
+  <linearGradient y2="0.994811" x2="0.006859" y1="0.15543" x1="0.993141" id="gradientc3h4wlL7SR">
+   <stop stop-color=" #cd0000" offset="0%"/>
+   <stop stop-color=" #ee1313" offset="100%"/>
+  </linearGradient>
+  <linearGradient y2="0.880234" x2="0.68591" y1="0" x1="0" id="gradientg1g2Yv1eTx">
+   <stop stop-color=" #d60000" offset="0%"/>
+   <stop stop-color=" #b82626" offset="100%"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <g id="svg_3">
+    <use y="-0.55147" id="svg_4" fill="url(#gradientc7CUneCg3b)" xlink:href="#ckfW4dmch"/>
+    <g id="svg_5">
+     <use y="-0.55147" id="svg_6" stroke-width="0" stroke="#000000" fill-opacity="0" xlink:href="#ckfW4dmch"/>
+    </g>
+   </g>
+   <g id="svg_7">
+    <use y="-0.55147" id="svg_8" fill="url(#gradientbZq0MeNRD)" xlink:href="#f2ScX1Dgz"/>
+    <g id="svg_9">
+     <use y="-0.55147" id="svg_10" stroke-width="0" stroke="#000000" fill-opacity="0" xlink:href="#f2ScX1Dgz"/>
+    </g>
+   </g>
+   <g id="svg_11">
+    <use y="-0.55147" id="svg_12" fill="url(#gradientc3h4wlL7SR)" xlink:href="#fbRUsXkep"/>
+    <g id="svg_13">
+     <use y="-0.55147" id="svg_14" stroke-width="0" stroke="#000000" fill-opacity="0" xlink:href="#fbRUsXkep"/>
+    </g>
+   </g>
+   <g stroke="null" id="svg_15">
+    <use stroke="null" x="0.301626" y="-3.201936" transform="matrix(0.9911413192749023,0,0,1.0087578933745665,3.1931448279938195,-0.06024297685310431) " id="svg_16" fill="#e71f14" xlink:href="#aWKG6FXIZ"/>
+    <use stroke="null" x="0.301626" y="-3.201936" transform="matrix(0.9911413192749023,0,0,1.0087578933745665,3.1931448279938195,-0.06024297685310431) " id="svg_17" fill="url(#gradientg1g2Yv1eTx)" xlink:href="#aWKG6FXIZ"/>
+    <g stroke="null" id="svg_18">
+     <use stroke="#000000" x="0.724533" y="-3.357787" transform="matrix(0.4126154470101609,0,0,0.9787260762272081,211.76366449147676,0.17153147130516944) " id="svg_19" stroke-width="0" fill-opacity="0" xlink:href="#aWKG6FXIZ"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
