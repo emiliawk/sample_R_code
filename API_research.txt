@@ -1,0 +1,87 @@
+LinkedIn API:
+ - from docs: Currently, all access tokens are issued with a 60 day lifespan. We will need to refresh the token before they expire, no need to send the user through the login process again?
+ https://developer.linkedin.com/docs/oauth2
+- To protect our member's data, LinkedIn does not generate excessively long-lived access tokens.  You should ensure your application is built to handle refreshing user tokens before they expire, to avoid having to unnecessarily send your users through the authorization process to re-gain access to their LinkedIn profile.
+
+instagram API:
+- Earlier this year, Instagram announced a new Instagram Graph API, along with plans to “deprecate” the older Instagram API on July 31, 2018.
+- authentication same as facebook
+- need to Connect a Facebook Page to an Instagram Business Account to use instagram graph api
+
+https://developers.facebook.com/docs/instagram-api/getting-started
+
+- media, page and user nodes:
+https://developers.facebook.com/docs/instagram-api/reference/
+- insights:
+https://developers.facebook.com/docs/instagram-api/insights
+https://developers.facebook.com/docs/instagram-api/reference/media/insights
+
+
+The API permissions available on this page are currently only available for Instagram business accounts. These APIs do not support regular personal profiles; you can learn more about business profiles here. If you are interested in the consumer (non-business) use cases that involve the Instagram login, please refer to the developer site for the former API permissions.
+https://www.instagram.com/developer/
+
+- all calls require a User access token
+- https://developers.facebook.com/docs/instagram-api/reference/media/insights
+
+Photo & Video Metrics
+* 		engagement (likes, comments, and saves)
+* 		impressions
+* 		reach
+* 		saved
+* 		video_views (videos only)
+
+Story Metrics
+* 		exits
+* 		impressions
+* 		reach
+* 		replies
+* 		taps_forward
+* 		taps_back
+
+https://m.facebook.com/help/instagram/788388387972460?helpref=faq_content&refid=69
+
+twitter API:
+- does not return the number of followers but  we can get followers/ids gets a list of follower’s ids and get a count of the list
+- authentication? https://oauth.net/core/1.0/#anchor9
+
+___________
+User API, Page API and object(eg. post) API:
+page vs user node, do we track only pages? Checked data for page node
+data for user nodes
+authentication
+
+we would need to implement an interface that sends an admin user lets say Pasi to log into facebook and generate short lived access token, that we will exchange for a long lived access token that we will be able to use for 2 months. Pasi would have to do that every two months. Possibly would need separate access token for every page we will extract data for. 
+
+- have a user interface that will send a page admin user (Pasi) through facebook login page where he will set permissions (manage_pages) and generate short lived (1 hr) user access token 
+- we will exchange this token for a long- lived (2 months) user access token
+- using the long lived user token we can request page access token that never expires
+
+Page API:
+https://developers.facebook.com/docs/pages/access-tokens
+https://developers.facebook.com/docs/graph-api/reference/page/
+https://developers.facebook.com/docs/graph-api/reference/v3.0/insights#availmetrics
+https://developers.facebook.com/docs/pages/access-tokens
+
+Access Tokens:
+https://developers.facebook.com/docs/facebook-login/access-tokens/
+https://developers.facebook.com/docs/facebook-login/access-tokens/refreshing
+https://developers.facebook.com/tools/access_token/
+
+Other:
+https://developers.facebook.com/docs/graph-api/reference
+https://stackoverflow.com/questions/26560611/how-to-get-the-total-number-of-posts-in-a-facebook-page-with-graph-api
+https://developers.facebook.com/docs/graph-api/changelog/version3.0#gapi-90
+https://developers.facebook.com/docs/graph-api/reference/page/
+
+
+https://developers.facebook.com/docs/audience-network/reporting-api
+https://github.com/fbsamples/audience-network/tree/master/samples/python/ReportingAPISamples
+
+https://developers.facebook.com/docs/graph-api/using-graph-api/
+https://developers.facebook.com/docs/analytics/export#create-request
+
+https://towardsdatascience.com/how-to-use-facebook-graph-api-and-extract-data-using-python-1839e19d6999
+
+https://github.com/naveendennis/Python-Facebook-Extract-Page-Data/blob/master/facebook_requests.py
+
+
